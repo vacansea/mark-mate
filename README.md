@@ -53,10 +53,6 @@ npm install</code></pre>
 
 <p>MarkMate acknowledges the contribution of the Hugging Face community and their support in providing the OpenAssistant Pythia model for AI content generation. Visit <a href="https://huggingface.co/">Hugging Face</a> for more information on their fantastic work.</p>
 
-<h2>License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
 <h2>Contributing</h2>
 
 <p>Feel free to contribute to MarkMate by opening issues and pull requests. Your contributions are highly appreciated!</p>
