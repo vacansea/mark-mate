@@ -28,7 +28,7 @@ const Input = () => {
           onChange={handleInputChange}
           className="w-full title1 border-2 border-gray-500 bg-transparent px-4 py-2 rounded-lg text-sm focus:border-gray-300 focus:outline-none transition duration-150 ease-in-out resize-none"
           style={{ border: input.length > 100 ? "2px solid #bc5652" : "" }}
-          placeholder="Write your subject for the email..."
+          placeholder="Write an email campaign for..."
           autoFocus={true}
         />
         <div
