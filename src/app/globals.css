@@ -16,12 +16,59 @@
   }
 }
 
+:root {
+  --color: #fdfce4;
+  --bg: #163637;
+  --sec: #bc5652;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fdfce47a;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fdfce4af;
+}
+
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  max-height: 100vh;
+  background: var(--bg);
+}
+
+.title1 {
+  color: var(--color);
+}
+
+.title2 {
+  color: var(--sec);
+}
+
+.myButton {
+  background-color: var(--sec);
+  color: var(--color);
+  transition: all 0.15s ease-in-out;
+}
+
+.myButton:hover {
+  background-color: #aa423f;
+}
+
+.myButton:active {
+  transform: scale(0.95);
+}
+
+.myBg {
+  background-color: #112b2c;
 }
