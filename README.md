@@ -36,7 +36,7 @@ npm install</code></pre>
 
   <p>Create a <code>.env.local</code> file in the root of your project and add your Hugging Face API key:</p>
 
-  <pre><code>NEXT_PUBLIC_HUGGING_FACE_API_KEY=your-api-key</code></pre>
+  <pre><code>HUGGINGFACE_API_KEY=your-api-key</code></pre>
 </ol>
 
 <h3>Usage</h3>
