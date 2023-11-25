@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>MarkMate - AI Marketing Email Campaign Generator</h1>
 
-## Getting Started
+<p>MarkMate is an open-source project that leverages AI to generate marketing email campaigns effortlessly. It uses the power of the OpenAssistant Pythia model provided by Hugging Face to create engaging and personalized email content for your marketing needs.</p>
 
-First, run the development server:
+<h2>Features</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<ul>
+  <li><strong>AI-Powered Content Generation</strong>: MarkMate utilizes the OpenAssistant Pythia model to generate compelling marketing email content.</li>
+  <li><strong>Next.js Framework</strong>: Built on the Next.js framework, MarkMate offers a seamless and efficient web application for managing and generating email campaigns.</li>
+</ul>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>Getting Started</h2>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<p>Follow these instructions to get MarkMate up and running on your local machine.</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<h3>Prerequisites</h3>
 
-## Learn More
+<ul>
+  <li>Node.js and npm installed</li>
+  <li>Hugging Face account for API key (refer to <a href="https://huggingface.co/docs/pytorch/inference.html">Hugging Face API documentation</a> for more information)</li>
+</ul>
 
-To learn more about Next.js, take a look at the following resources:
+<h3>Installation</h3>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<ol>
+  <li>Clone the repository:</li>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+  <pre><code>git clone https://github.com/your-username/MarkMate.git</code></pre>
 
-## Deploy on Vercel
+  <li>Install dependencies:</li>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  <pre><code>cd MarkMate
+npm install</code></pre>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  <li>Set up your Hugging Face API key:</li>
+
+  <p>Create a <code>.env.local</code> file in the root of your project and add your Hugging Face API key:</p>
+
+  <pre><code>NEXT_PUBLIC_HUGGING_FACE_API_KEY=your-api-key</code></pre>
+</ol>
+
+<h3>Usage</h3>
+
+<ol>
+  <li>Start the development server:</li>
+
+  <pre><code>npm run dev</code></pre>
+
+  <li>Open your browser and navigate to <a href="http://localhost:3000">http://localhost:3000</a> to access MarkMate.</li>
+</ol>
+
+<h2>Credits</h2>
+
+<p>MarkMate acknowledges the contribution of the Hugging Face community and their support in providing the OpenAssistant Pythia model for AI content generation. Visit <a href="https://huggingface.co/">Hugging Face</a> for more information on their fantastic work.</p>
+
+<h2>License</h2>
+
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
+
+<h2>Contributing</h2>
+
+<p>Feel free to contribute to MarkMate by opening issues and pull requests. Your contributions are highly appreciated!</p>
